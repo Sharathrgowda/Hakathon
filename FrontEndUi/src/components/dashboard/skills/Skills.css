@@ -1,0 +1,50 @@
+.skills{
+  width: auto;
+  height: auto; 
+}
+
+.skills span{
+  font-weight: 500;
+  color: var(--whiteA);
+  font-size: 1.5rem;
+}
+
+#dark .skills{
+  color: whitesmoke;
+}
+
+#dark .skills span{
+color: #c4c434ee;
+}
+
+#dark .skills img{
+  background-color: #c4c434ee;
+}
+
+.skills img{ 
+  width: 31px;
+  height: 24px;
+  margin-top: -2%;
+  margin-left: 3%;
+  background: var(--whiteA); 
+  border-radius: 28%;
+  cursor: pointer;
+}
+
+.skillsdata{
+  width: 100%;
+}
+
+#dark .skillsdata h6{
+  background: linear-gradient(270deg, rgb(196, 194, 206),rgb(99, 100, 102));
+}
+
+.skillsdata h6{
+  background:var(--whiteA);
+  margin: 5px;
+  padding: 2px 16px;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  box-shadow: var(--boxShadowS);
+}
