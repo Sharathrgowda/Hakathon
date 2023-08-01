@@ -1,0 +1,17 @@
+.project{
+    width: 100%;
+    height: auto;
+}
+
+#dark .project h5{
+    background: linear-gradient(270deg, rgb(196, 194, 206),rgb(99, 100, 102));
+}
+
+.project h5{
+    background:var(--backgroundP);
+    border-radius: 15px;
+    color:  var(--whiteA);
+    padding: 10px 8px;
+    padding-left: 5%;
+    font-size: 15px; 
+}
